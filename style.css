@@ -6,12 +6,76 @@ body {
   margin: 0;
   background: linear-gradient(
     109.6deg,
-    rgb(0, 0, 0) 11.2%,
-    rgb(247, 30, 30) 100.3%
+    rgb(208, 222, 199) 11.2%,
+    rgb(103, 105, 103) 100.3%
   );
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+}
+
+input {
+  background-color: rgb(56, 60, 90);
+  border-radius: 8px;
+  font-size: 1rem;
+  padding: 0.8rem;
+  margin: 20px;
+  border: none;
+  font-family: inherit;
+  text-align: center;
+}
+
+input::placeholder {
+  color: whitesmoke;
+}
+
+input:focus {
+  outline: none;
+}
+
+.card {
+  background: linear-gradient(
+    109.6deg,
+    rgb(56, 60, 90) 11.2%,
+    rgb(101, 110, 97) 100.3%
+  );
+  display: flex;
+  padding: 3rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(166, 173, 201, 0.2);
+  max-width: 700px;
+}
+
+.avatar {
+  border-radius: 50%;
+  border: 5px solid rgb(108, 118, 68);
+  height: 170px;
+  width: 170px;
+}
+
+.user-info {
+  margin-left: 2rem;
+  color: whitesmoke;
+}
+
+.user-info h2 {
+  margin: 0;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-info ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  width: 200px;
+  margin-left: 20px;
+  list-style: none;
 }
