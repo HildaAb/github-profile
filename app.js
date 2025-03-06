@@ -15,7 +15,7 @@ function createUserCard(user) {
   const cardHTML = `
   <div class="card">
     <div>
-    <img src="${user.avatar_url}"alt=""/>
+    <img src="${user.avatar_url}"alt="${user.name}"/>
     </div>
     <div>
     <h2>${user.name}</h2>
@@ -23,8 +23,8 @@ function createUserCard(user) {
 
     <ul>
     <li>${user.followers}</li>
-    <li>${user.following_url}</li>
-    <li>${user.repos_url}</li>
+    <li>${user.following}</li>
+    <li>${user.public_repos}</li>
     </ul>
     </div>
     </div>
