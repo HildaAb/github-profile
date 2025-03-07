@@ -6,8 +6,8 @@ body {
   margin: 0;
   background: linear-gradient(
     109.6deg,
-    rgb(234, 246, 227) 11.2%,
-    rgb(151, 160, 151) 100.3%
+    rgb(236, 241, 234) 11.2%,
+    rgb(244, 249, 244) 100.3%
   );
   display: flex;
   flex-direction: column;
@@ -46,14 +46,14 @@ input:focus {
   border-radius: 10px;
   box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
     0 15px 40px rgba(166, 173, 201, 0.2);
-  max-width: 700px;
+  max-width: 800px;
 }
 
 .avatar {
   border-radius: 50%;
   border: 5px solid rgb(108, 118, 68);
-  height: 170px;
-  width: 170px;
+  height: 160px;
+  width: 160px;
 }
 
 .user-info {
@@ -63,12 +63,6 @@ input:focus {
 
 .user-info h2 {
   margin-top: 0;
-}
-
-.image-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .user-info ul {
@@ -88,4 +82,16 @@ input:focus {
   font-size: 0.9rem;
   margin-left: 0.5rem;
   margin-right: 50px;
+}
+
+.repo {
+  background-color: rgb(56, 60, 90);
+  display: inline-block;
+  color: whitesmoke;
+  padding: 0.25rem 0.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+  font-size: 0.7rem;
+  border-radius: 4px;
 }
