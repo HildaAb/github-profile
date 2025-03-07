@@ -24,10 +24,13 @@ function createUserCard(user) {
     <p>${user.bio}</p>
 
     <ul class="info">
-    <li>${user.followers}</li>
-    <li>${user.following}</li>
-    <li>${user.public_repos}</li>
+    <li>${user.followers}<strong>Folleowers</strong></li>
+    <li>${user.following}<strong>Folleowing</strong></li>
+    <li>${user.public_repos}<strong>Repos</strong></li>
     </ul>
+
+    <ul class="repos"id="repos"></ul>
+    
     </div>
     </div>
     `;
