@@ -7,8 +7,10 @@ body {
   background: linear-gradient(
     109.6deg,
     rgb(236, 241, 234) 11.2%,
-    rgb(244, 249, 244) 100.3%
+    rgb(244, 249, 244) 130.3%
   );
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,11 +20,12 @@ body {
 
 input {
   background-color: rgb(56, 60, 90);
-  border-radius: 8px;
+  border-radius: 4px;
   font-size: 1rem;
   padding: 0.8rem;
   margin: 20px;
   border: none;
+  border-radius: 40px;
   font-family: inherit;
   text-align: center;
 }
@@ -38,12 +41,13 @@ input:focus {
 .card {
   background: linear-gradient(
     109.6deg,
-    rgb(56, 60, 90) 30.2%,
-    rgb(218, 224, 104) 100.3%
+    rgb(93, 91, 54) 30.2%,
+    rgb(245, 245, 137) 100.3%
   );
   display: flex;
   padding: 3rem;
-  border-radius: 10px;
+  height: 25rem;
+  border-radius: 4px;
   box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
     0 15px 40px rgba(166, 173, 201, 0.2);
   max-width: 800px;
@@ -51,9 +55,9 @@ input:focus {
 
 .avatar {
   border-radius: 50%;
-  border: 5px solid rgb(108, 118, 68);
-  height: 160px;
-  width: 160px;
+  border: 3px solid rgb(56, 60, 90);
+  height: 250px;
+  width: 250px;
 }
 
 .user-info {
@@ -81,17 +85,17 @@ input:focus {
 .user-info ul li strong {
   font-size: 0.9rem;
   margin-left: 0.5rem;
-  margin-right: 50px;
+  margin-right: 70px;
 }
 
 .repo {
   background-color: rgb(56, 60, 90);
   display: inline-block;
   color: whitesmoke;
-  padding: 0.25rem 0.5rem;
-  margin-right: 0.5rem;
+  padding: 0.4rem 0.6rem;
+  margin-right: 0.7rem;
   margin-bottom: 0.5rem;
   text-decoration: none;
   font-size: 0.7rem;
-  border-radius: 4px;
+  border-radius: 40px;
 }
