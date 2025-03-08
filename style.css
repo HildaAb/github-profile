@@ -38,21 +38,21 @@ input:focus {
   background: rgb(42, 47, 76);
   display: flex;
   padding: 3rem;
-  height: 25rem;
+  height: 26rem;
   border: none;
   border-radius: 4px;
   border-bottom: 6px double rgb(114, 120, 161);
   border-right: 6px double rgb(114, 120, 161);
   box-shadow: rgba(54, 56, 57, 0.48) 8px 4px 18px 2px,
     rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
-  max-width: 700px;
+  max-width: 800px;
 }
 
 .avatar {
   border-radius: 50%;
   border: 3px solid rgb(209, 214, 202);
-  height: 150px;
-  width: 150px;
+  height: 180px;
+  width: 180px;
 }
 
 .user-info {
@@ -80,7 +80,7 @@ input:focus {
 .user-info ul li strong {
   font-size: 0.9rem;
   margin-left: 0.5rem;
-  margin-right: 70px;
+  margin-right: 40px;
 }
 
 .repo {
